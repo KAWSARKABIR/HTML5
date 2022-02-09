@@ -1,0 +1,63 @@
+/* Part Of TAG Selector */
+marquee{
+    background-color:#000;
+    color: orange;
+
+}
+p{
+    font-size: 30px;
+}
+span{
+    background-color: green;
+    color: red;
+}
+/* Part Of Class & ID  */
+.div1{
+    height: 100px;
+    width: 250px;
+    color:royalblue;
+}
+#kr{
+    background-color: slateblue;
+    color: #000;
+}
+
+/* Part Of nested selector  */
+#kr h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkgreen;
+
+}
+ul li{
+    list-style: none;
+}
+/* Part Of Child Selector  */
+.listitem li:first-child a{
+    color: blue;
+}
+.listitem li:last-child a{
+    color: rgb(73, 26, 245);
+}
+.listitem li:nth-child(odd) a{
+    color: rgb(196, 12, 241);
+}
+.list2 li:nth-child(even) a{
+    color:black;
+}
+.div5{
+    height: 150px;
+    width: 300px;
+    background-color: black;
+
+}
+.div5:hover{
+    background-color: orange;
+    cursor: pointer;
+    transition: .5s;
+}

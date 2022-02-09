@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+/* Part Of Block Type Tag */
+h1{
+    color: red;
+    background-color: rgb(10, 214, 10);
+}
+P{
+    color: red;
+    background-color: rgb(19, 87, 233);
+}
+
+blockquote{
+    color: rgb(0, 0, 0);
+    background-color: rgb(185, 40, 161);
+}
+.ul{
+    color: rgb(255, 232, 232);
+    background-color: rgb(245, 103, 8);
+}
+ol{
+    color: rgb(253, 249, 249);
+    background-color: rgb(0, 0, 0);
+}
+/* Part Of inline type tag */
+b{
+    color: red;
+    background-color: green;
+}
+strong{
+    color: red;
+    background-color: green;
+}
+small{
+    color: red;
+    background-color: green;
+}
+i{
+    color: red;
+    background-color: green;
+}
+span{
+    color: red;
+    background-color: green;
+}
+em{
+    color: red;
+    background-color: green;
+}
+u{
+    color: red;
+    background-color: green;
+}
+ins{
+    color: red;
+    background-color: green;
+}
+del{
+    color: red;
+    background-color: green;
+}
+mark{
+    color: red;
+    background-color: green;
+}
+.a{
+    color: red;
+    background-color: green;
+}
+/* Part Of Menu */
+.menu{
+    text-align: center;
+   
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    background-color:rgb(0, 0, 0);
+    padding:  10px 20px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    transition:.5s;
+    
+}
+.menu li:hover{
+    background-color:rgb(245, 22, 163);
+  
+     
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    
+}

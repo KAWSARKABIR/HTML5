@@ -1,0 +1,84 @@
+.mainDiv{
+    height: 300px;
+    width: 1000px;
+    border: 1px solid black;  
+    margin: auto;  
+    background-color: aqua;
+    color: white;
+    font-size: large;
+}
+
+.div1{
+    height: 100px;
+    width: 250px;
+    background-color: chocolate;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 90px;
+}
+.div2{height: 100px;
+    width: 250px;
+    background-color: rgb(10, 88, 161);
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 120px;
+}
+.div3{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(46, 143, 17);
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+/* image-mainDiv */
+
+.image-mainDiv{
+    background-color: rgb(255, 255, 236);
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+
+.motherDiv{
+    height:150px ;
+    width: 150px;
+    margin:auto ;
+    position: relative;
+}
+.motherDiv img{
+        position: relative;
+        top: 30px;
+        height: 100%;
+        width: 100%;
+}
+
+.inner-div{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top:30px;
+    margin: auto;
+    text-align: center;
+    height: 0;
+    background-color: rgba(194, 72, 50, 0.5)
+    ;
+    color: white;
+    visibility: hidden;
+}
+
+.motherDiv:hover .inner-div{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    transition: .2s;
+}

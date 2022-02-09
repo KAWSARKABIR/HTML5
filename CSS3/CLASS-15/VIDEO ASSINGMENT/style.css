@@ -1,0 +1,558 @@
+.fullwebsite{
+    font-family: sans-serif;
+}
+
+.clearfix{
+    content:"";
+    clear: both;
+    display: block;
+}
+ .header{
+     background:linear-gradient(#f006,#0000ff82),url(http://www.btrade.com/wp-content/uploads/2013/01/slider-img-4.jpg);
+     background-repeat: no-repeat;
+     padding: 200px 0px;
+     background-position:center;
+     background-size:cover;
+      
+}
+.header .logo{
+    float: left;
+    width: 35%; 
+}
+.header .logo img{
+    width: 50px;
+    margin-left: 40px;
+    margin-top: 5px;
+    
+}
+.header .logo h1{
+    font-family: Arial black;
+    color: rgb(54, 120, 179);
+    margin-top: -170px;
+    cursor: pointer;
+    margin-left: 80px;
+    
+}
+/* Part of menu */
+.header .menu{
+    float: right;
+    width: 60%;
+    text-align: center;
+}
+.header .menu ul{
+    list-style: none;
+    position: relative;
+    top: -170px;
+    left: 20px;
+}
+.header .menu ul li{
+    display: inline-block;
+    padding: 10px 0px;
+ 
+}
+.header .menu ul li a{
+    color: rgb(231, 229, 229);
+    padding: 15px 10px;
+    text-decoration: none;
+    transition: .7s;
+    font-family: 'Oswald', sans-serif;
+     
+    font-size: 18px;
+}
+.header .menu ul li:hover > a{
+    color: deeppink;
+}
+/*dropdown menu */
+.header .menu ul li{
+    position: relative;
+    margin: -10px 0px;
+}
+.header .menu ul li ul{
+    position: absolute;
+    top: 130%;
+    left:0;
+    width: 150px;
+    background: #000;
+    padding-left: 0px;
+    border-top: 5px solid rgb(60, 114, 218);
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.header .menu ul li ul li{
+    display: block;
+}
+.header .menu ul li ul li a{
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    padding: 15px 10px;
+
+}
+.header .menu ul li ul li ul{
+    margin-left: 150px;
+    margin-top: -68px;
+}
+.header .menu ul li ul li:hover>a{
+    background-color:rgb(60, 114, 218);
+    padding-left: 5px;
+}
+.header .menu ul li:hover>ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.header .bio{
+    margin-left: 80px;
+    color: #fff;
+}
+.header .bio h4{
+    font-weight: 600;
+}
+.header .bio h1{
+    font-weight: 600;
+    color: #000;
+}
+
+/* Part of About Me */
+.about{
+    text-align:center;
+    margin-top: 30px;
+    background-color:#f7f9ff;
+}
+.about .chobi{
+    float: left;
+    width: 25%;
+    margin-left: 170px;
+}
+.about .chobi img{
+    max-width:100%;
+}
+.about .paragraph{
+    float: right;
+    width: 50%;
+    margin-right: 70px;
+    text-align: left;
+}
+.about .paragraph h1{
+    font-weight: 600;
+}
+.form .div1 {
+    width: 35%;
+    float: left;
+    margin-left: -30px;
+}
+.form .div2{
+    width: 70%;
+    float: left;    
+}
+.form ul{
+    list-style: none;
+    font-weight: 600;
+}
+.form li{
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.about .anchor a{
+    background: #ff4a57;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: .6s;
+    margin-bottom: 30px;
+}
+.about .anchor a:hover{
+    color:#ff4a57;
+    background: none;
+}
+
+
+/* Service Section */
+.service{ 
+    padding: 30px 0px;
+    background: #f7f9ff;
+    padding-bottom: 50px;
+}
+.service h2{
+    text-align: center;
+    font-weight: 600;
+    /*! font-size: 30px; */
+}
+/* box-1 */
+.service .box-1{
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 15px #000;
+    border-radius: 5px;
+    padding: 10px 5px;
+    transition: .5s;
+}
+.service .box-1 span{
+    color: dodgerblue;
+    padding: 10px 13px;
+    display: inline-block;
+    font-size: 35px;
+}
+.service .box-1 h4{
+    color: deeppink;
+    /*! font-weight: 600; */
+    font-size: 25px;
+}
+.box-1:hover{
+    background:rgba(174, 69, 148, 0.6);
+     
+}
+/* box-2 */
+.service .box-2{
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40px;
+    box-shadow: 2px 2px 10px #000;
+    border-radius: 5px;
+    padding: 10px 5px;
+    transition: .5s;
+}
+.service .box-2 span{
+    color: dodgerblue;
+    padding: 10px 13px;
+    display: inline-block;
+    font-size: 35px;
+}
+.service .box-2 h4{
+    color: deeppink;
+    font-size: 25px;
+    /*! font-weight: 600; */
+    padding: 0px 5px;
+}
+.box-2:hover{
+    background:rgba(174, 69, 148, 0.6);
+     
+}
+/* box-3 */
+.service .box-3{
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40px;
+    box-shadow: 2px 2px 10px #000;
+    border-radius: 5px;
+    padding: 10px 5px;
+    transition: .5s;
+}
+.service .box-3 span{
+    color: dodgerblue;
+    padding: 10px 13px;
+    display: inline-block;
+    font-size: 35px;
+}
+.service .box-3 h4{
+    color: deeppink;
+    font-size: 25px;
+    /*! font-weight: 600; */
+}
+.box-3:hover{
+    background:rgba(174, 69, 148, 0.6);
+     
+}
+/* box-4 */
+.service .box-4{
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40px;
+    box-shadow: 2px 2px 10px #000;
+    border-radius: 5px;
+    padding: 10px 5px;
+    transition: .5s;
+}
+.service .box-4 span{
+    color: dodgerblue;
+    padding: 10px 13px;
+    display: inline-block;
+    font-size: 35px;
+}
+.service .box-4 h4{
+    color: deeppink;
+    font-size: 25px;
+    /*! font-weight: 600; */
+}
+.box-4:hover{
+    background:rgba(174, 69, 148, 0.6);
+     
+}
+/* Part Of Project Section */
+
+/* img-1 */
+.gallery{
+    margin-top: 30px;
+    background:#eef2ff40;
+}
+.gallery h2{
+    text-align: center;
+    font-weight: 600;
+}
+.gallery img{
+    max-width: 100%;
+    margin-left: 10px;
+}
+.gallery .img-1{
+    width: 215px;
+    display: inline-block;
+    overflow: hidden;
+    height: 255px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gallery .img-1 img{
+    transition: .5s;
+}
+.gallery .img-1 img:hover{
+    transform: rotate(360deg) scale(1.2);
+    cursor: pointer;
+}
+/* img-2 */
+.gallery .img-2{
+    width: 215px;
+    display: inline-block;
+    overflow: hidden;
+    height: 255px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.gallery .img-2 img{
+    transition: .5s;
+}
+.gallery .img-2 img:hover{
+    transform: rotate(20deg) scale(1.2);
+    cursor: pointer;
+}
+/* img-3 */
+.gallery .img-3{
+    width: 215px;
+    display: inline-block;
+    overflow: hidden;
+    height: 255px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gallery .img-3 img{
+    transition: .5s;
+}
+.gallery .img-3 img:hover{
+    transform: rotate(-20deg) scale(1.2);
+    cursor: pointer;
+}
+/* img-4 */
+.gallery .img-4{
+    width: 215px;
+    display: inline-block;
+    overflow: hidden;
+    height: 255px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gallery .img-4 img{
+    transition: .5s;
+}
+.gallery .img-4 img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/* img-5 */
+.gallery .img-5{
+    width: 215px;
+    display: inline-block;
+    overflow: hidden;
+    height: 255px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gallery .img-5 img{
+    transition: .5s;
+}
+.gallery .img-5 img:hover{
+    transform: rotate(20deg) scale(1.2);
+    cursor: pointer;
+}
+/* img-5 */
+.gallery .img-5{
+    width: 215px;
+    display: inline-block;
+    overflow: hidden;
+    height: 255px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.gallery .img-5 img{
+    transition: .5s;
+}
+.gallery .img-5 img:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+}
+/* img-6 */
+.gallery .img-6{
+    width: 215px;
+    display: inline-block;
+    overflow: hidden;
+    height: 255px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gallery .img-6 img{
+    transition: .5s;
+}
+.gallery .img-6 img:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+/* img-7 */
+.gallery .img-7{
+    width: 215px;
+    display: inline-block;
+    overflow: hidden;
+    height: 255px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gallery .img-7 img{
+    transition: .5s;
+}
+.gallery .img-7 img:hover{
+    transform: rotate(20deg) scale(1.2);
+    cursor: pointer;
+}
+/* img-8 */
+.gallery .img-8{
+    width: 215px;
+    display: inline-block;
+    overflow: hidden;
+    height: 255px;
+    margin-left: 62px;
+    margin-top: 50px;
+}
+.gallery .img-8 img{
+    transition: .5s;
+}
+.gallery .img-8 img:hover{
+    transform:scale(1.4);
+    cursor: pointer;
+}
+/* Part of Contact me */
+.info{
+    text-align: center; 
+    background: #fefeff;
+    padding: 40px 0px;
+}
+.info h2{
+    font-family: sans-serif;
+    margin-top: j;
+    font-weight: 600;
+}
+.info input{
+    border: none;
+    border-bottom: 1px solid red;
+    width: 500px;
+}
+.info a{
+    background: #ff4a57;
+    color: #fff;
+    padding: 7px 100px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.info a::before{
+    content:"";
+    height: 100%;
+    width:0;
+    background: #f20717;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transition: .6s;
+    z-index: -1;
+}
+.info a:hover::before{
+    width: 50%;
+    border-radius: 5px 0px 0px 5px;
+}
+.info a::after{
+    content:"";
+    height: 100%;
+    width:0;
+    background:#c70916;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    transition: .6s;
+    z-index: -1;
+}
+.info a:hover::after{
+    width: 50%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* Part of Contrainer */
+.contrainer img{
+    width: 100px;
+}
+.contrainer{
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.contrainer .imga{
+    float: left;
+    width: 20%;
+}
+.contrainer .text{
+    float:left;
+    width: 50%;
+}
+.notice{
+    float: right;
+    width: 30%;
+    margin-top: -280px;
+}
+.fotter{
+    background-color:#000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.fotter h1{
+    font-weight: 600;
+}
+.fotter ul li{
+    display: inline-block;
+  
+}
+.fotter ul li a{
+    display: inline-block;
+    font-size: 20px;
+    background: #c70916;
+    color: rgb(249, 249, 255);
+    border-radius: 50%;
+    transition: .7s;
+    height: 45px;
+    width: 45px;
+    line-height:45px;
+}
+.fotter ul li a:hover{
+    background: rgb(255, 255, 255); 
+    color: #000;
+}

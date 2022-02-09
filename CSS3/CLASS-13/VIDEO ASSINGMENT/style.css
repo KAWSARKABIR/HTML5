@@ -1,0 +1,201 @@
+.sob-div{
+    width: 1024px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+h2{
+    color: red;
+    font-size: 30px;
+     
+}
+h2::before{
+    content: "Before me-";
+}
+h2::after{
+    content: "-After Me";
+}
+ 
+.test-monial p::before{
+    content: '"';
+}
+.test-monial p::after{
+    content: '"';
+}
+.listkorbo .fast-list li{
+    list-style: none;
+}
+/* Part Of Fast list */
+.listkorbo .fast-list li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+ 
+}
+.listkorbo .fast-list li a::before{
+    content: "\f00c";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 5px;
+}
+.listkorbo .fast-list li a::after{
+    content: "\f015";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color: green;
+}
+
+/* Part Of Second List */
+.listkorbo .second-list li{
+    list-style: none;
+}
+
+.listkorbo .second-list li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+ 
+}
+.listkorbo .second-list li a::before{
+    content: "\f560";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 5px;
+}
+.listkorbo .second-list li a::after{
+    content: "\f108";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(60, 63, 238);
+}
+
+/* Part Of Third List */
+.listkorbo .third-list li{
+    list-style: none;
+}
+
+.listkorbo .third-list li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+ 
+}
+.listkorbo .third-list li a::before{
+    content: "\f00c";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 5px;
+}
+.listkorbo .third-list li a::after{
+    content: "\f082";
+    font-family:"Font Awesome 5 brands";
+    font-weight: 900;
+    color: rgb(98, 0, 128);
+}
+/* Part Of Button */
+
+.button{
+    
+    display: inline-block;
+   
+}
+.button a{
+    text-decoration: none;
+    background-color: black;
+    color: orange;
+    display: inline-block;
+    padding: 15px 20px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    
+    
+   
+}
+.button a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: rgb(57, 12, 218);
+    top: 0;
+    left: 0;
+    transition: .5s;
+    z-index: -1;
+ 
+}
+.button a:hover::before{
+    width: 100%;
+    
+}
+/* PArt Of batton 2 */
+
+.button-2{
+    
+    display: inline-block;
+   
+}
+.button-2 a{
+    text-decoration: none;
+    background-color: black;
+    color: orange;
+    display: inline-block;
+    padding: 15px 20px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    
+    
+   
+}
+.button-2 a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:0;
+    background-color: rgb(57, 12, 218);
+    top: 0;
+    left: 0;
+    transition: .5s;
+    z-index: -1;
+ 
+}
+.button-2 a:hover::before{
+    height: 100%;
+    
+}
+/* Part Of Button 3 */
+.button-3{
+    
+    display: inline-block;
+   
+}
+.button-3 a{
+    text-decoration: none;
+    background-color: black;
+    color: orange;
+    display: inline-block;
+    padding: 15px 20px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    
+    
+   
+}
+.button-3 a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:0;
+    background-color: rgb(57, 12, 218);
+    bottom: 0;
+    left:0;
+    transition: .5s;
+    z-index: -1;
+ 
+}
+.button-3 a:hover::before{
+    height: 100%;
+    
+}

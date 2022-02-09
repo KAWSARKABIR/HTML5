@@ -1,0 +1,81 @@
+/* Part Of National Flag */
+.national-flag{
+    background-color: green;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    padding-top: 35px;
+    margin: 50px auto;
+    box-shadow:2px 3px 5px rgba(28, 16, 16);
+
+}
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+/* Patr Of Egg */
+.egg{
+    height: 150px;
+    width: 250px;
+    background-color:#ffa631;
+    text-align: center;
+    border-radius: 50%;
+    margin: 50px auto;
+
+}
+.kusum{
+    height: 100px;
+    width: 100px;
+    background-color:#FFCC5F;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top:25px;
+}
+/* Part Of Bootstrap Paddimg */
+.heading{
+    background-color: rgb(85, 85, 250);
+}
+.pera{
+    background-color: blueviolet;
+}
+span{
+    background-color: black;
+    color: orange;
+}
+/* Part Of Website */
+.fullwebsite{
+    text-align: center;
+    color: white;
+    width: 1024px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 4px black;
+}
+.menu{
+    color: #fff;
+    background-color:black;
+    font-size: 35px;
+
+}
+img{
+    max-width: 100%;
+
+}
+.content{
+    background-color:#686de0;
+    padding: 50px;
+}
+.footer{
+    background-color: #95afc0;
+    padding: 35px;
+    font-size: 35px;
+}
+.fotter-bottom{
+    background-color: #130f40;
+    padding: 5px;
+    font-size: 35px;
+}

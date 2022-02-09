@@ -1,0 +1,51 @@
+.fullwebsite{
+    width: 1024px;
+    margin: 0 auto;
+}
+.head h3{
+    background-color: rgb(52, 73, 94);
+    margin-bottom: 0px;
+    
+}
+.img-div{
+    background-color:rgb(230, 126, 34);
+}
+img{
+     box-shadow: 10px 10px 10px #fff;
+    
+}
+.title{
+    background-color: rgb(52, 73, 94);
+}
+.title h5{
+    color: #348fce;
+}
+.paragraph{
+    background-color: rgb(155, 89, 182);
+}
+.green{
+    color: rgb(26, 135, 85);
+}
+.gold{
+    color:rgb(241, 196, 14);
+}
+.tel{
+    color: rgb(149, 165, 166);
+}
+.fotter{
+    background-color: rgb(255, 152, 20);
+}
+.doted {
+	background-color: rgb(220, 220, 220);
+	height: 150px;
+	display: inline-block;
+	border: 3px dashed #000;
+	border-radius: 10px;
+	box-shadow: 24px 20px 0px #fff;
+}
+.fotter-bottom{
+    background-color: rgb(44, 62, 80);
+}
+.div1 li:nth-child(3n-2){
+    background-color: orange;
+}

@@ -1,0 +1,81 @@
+/* Part Of Color Name */
+h2{
+    color: blue;
+    background-color: black;
+}
+/* Part Of Color RGB */
+h3{
+    color: rgb(211, 24, 133);
+    background-color:rgb(0, 128, 0) ;
+}
+/* Part Of Color HEX */
+p{
+    color:#df1010 ;
+    background-color: #172141;
+}
+/* Part Of Color HSL */
+Marquee{
+    color:hsl(31, 78%, 51%) ;
+    background-color:hsl(0, 0%, 12%) ;
+}
+/* Part of Text Align */
+.bame{
+    text-align: left;
+}
+.middile{
+    text-align: center;
+}
+.dane{
+    text-align: right;
+}
+/* Part Of Text decoration */
+.uporeLine{
+    text-decoration: overline;
+
+}
+.nicheLine{
+    text-decoration: underline;
+
+}
+.petKata{
+    text-decoration: line-through;
+}
+/* Part Of Text Transfrom */
+.SobGulaBoro{
+    text-transform: uppercase;
+             
+}
+.SobGulaChoto{
+    text-transform: lowercase;
+}
+.pothomtaBoro{
+    text-transform: capitalize;
+}
+/* Part Of Text Spacing */
+.letterFakaHobe{
+    letter-spacing: 10px;
+}
+.LineFakaHobe{
+    line-height:60px;
+}
+.WordFakaHobe{
+    word-spacing: 30px;
+
+}
+/* Part Of Text Shadow */
+.Shadow{
+    text-shadow: 2px 2px blue;
+
+
+}
+/* Part Of Fonts */
+h5{
+    font-size: 30px;
+    font-style: italic;
+    font-weight:bold;
+    font-family:fantasy;
+}
+/* Part Of Google Fonts */
+.sundor{
+    font-family: 'Fleur De Leah', cursive;
+}

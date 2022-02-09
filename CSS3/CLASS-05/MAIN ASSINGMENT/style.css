@@ -1,0 +1,70 @@
+h2{
+    color: rgb(100, 27, 118);
+
+}
+table{
+    background-color: rgb(255, 250, 191);
+    text-align: center;
+}
+.header{
+    background-color: rgb(255, 255, 0);
+}
+.Gold{
+    background-color: rgb(246, 185, 59);
+    
+}
+.Red{
+    background-color: rgb(255, 63, 52);
+
+}
+.Turquoise{
+    background-color: rgb(15, 188, 249);
+}
+.LightGreen{
+    background-color: rgb(120, 224, 143);
+}
+.Lavender{
+    background-color: rgb(217, 128, 250);
+}
+.IceBlue{
+    background-color: rgb(209, 216, 224);
+}
+.Name{
+    background-color:rgb(255, 204, 204) ;
+}
+.Room{
+    background-color: rgb(196, 229, 56);
+}
+.Rose{
+    background-color: rgb(255, 107, 129);
+}
+.BrightGreen{
+    background-color:rgb(46, 213, 115) ;
+}
+.Purple{
+    background-color:rgb(142, 74, 190) ;
+}
+.Blue{
+    background-color:rgb(34, 34, 253) ;
+}
+.DarkGreen{
+    background-color: rgb(0, 128, 0);
+}
+.Yellow{
+    background-color:rgb(255, 255, 0) ;
+}
+.paragraph{
+     color: rgb(67, 20, 196);
+    background-color:rgb(210, 210, 210);
+    text-align: center;
+}
+.heading{
+    color: red;
+}
+.footer{
+    color: white;
+    background-color: rgb(69, 215, 106);
+    text-align: center;
+    font-size: 35px;
+
+}

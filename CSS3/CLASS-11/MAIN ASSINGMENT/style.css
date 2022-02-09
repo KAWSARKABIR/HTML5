@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full-website{
+    width: 1024px;
+    margin: auto;
+    background-color: rgb(138, 103, 51);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* section1 */
+
+.section-1{
+    padding: 30px 0;
+    background-color:#31485e ;
+}
+
+.section-1 ul li{
+        display: inline-block;
+        text-align: center;
+        margin-left: 10px;
+}
+.section-1 ul li a{
+    color: black;
+    text-decoration: none;
+    background-color: #ef8420;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    
+}
+.section-1 ul li p{
+    width: 10px;
+    height: 30px;
+    background-color: white;
+    margin: auto;
+}
+.section-1 ul li span {
+    color: #d87f3f;
+    font-size: 30px;
+}
+
+/* section-2 */
+
+.section-2{
+    padding: 50px 0;
+    background-color: #e0e0e0;
+
+}
+.section-2 h1{
+    color:#385a37 ;
+    font-size: 50px;
+    position: relative;
+    top: -50px;
+    border-bottom: 3px dashed #385a37;
+}
+.section-2 .box1 {
+    padding: 60px 16px;
+    padding-bottom: 0px;
+    width: 230px;
+    background-color: #eee7e6;
+    margin: auto;
+    display: inline-block;
+    box-shadow: 1px 1px 5px 5px #a7a4a3;
+    border-radius: 20px;
+    transition: .5s;
+}
+.section-2 .box1:hover{
+    background-color: rgb(135, 167, 226);
+}
+.box1 i {
+    font-size: 80px;
+    color: #36583f;
+    position: relative;
+    top: -33px;
+}
+.box1 h4{
+    color: #8e5d64;
+}
+.box1 p{
+    color: #695053;
+}
+.box-1 {
+    display: inline-block;
+    position: relative;
+    left: -73px;
+    /* padding: 0px; */
+}
+.box-2 {
+    display: inline-block;
+    position: relative;
+    left: -2px;
+}
+.box-3 {
+    display: inline-block;
+    position: relative;
+    right: -71px;
+}
+
+/* section-3 */
+
+.section-3 {
+    padding: 150px 0;
+    padding-bottom: 15px;
+    background-color: #9f65b9;
+}
+.section-3 .gol {
+    display: inline-block;
+    position: relative;
+    top: -80px;
+}
+.section-3 .gol-1{
+    
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color:#31485e ;
+    margin: auto;
+    border: 3px dotted #e6862c;
+    display: inline-block;
+}
+.section-3 .gol-1{
+    
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color:#31485e ;
+    margin: auto;
+    border: 3px dotted #e6862c;
+    display: inline-block;
+}
+.section-3 .gol-1{
+    
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color:#31485e ;
+    margin: auto;
+    border: 3px dotted #e6862c;
+    display: inline-block;
+}
+.section-3 .gol1 {
+    display: inline-block;
+    position: relative;
+    left: -20px;
+    top: 60px;
+}
+.section-3 .gol2 {
+    display: inline-block;
+    position: relative;
+    top: -38px;
+    left: -20px;
+}
+.section-3 .gol3 {
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    left: 50px;
+}
+.section-3 .gol4 {
+    display: inline-block;
+    position: relative;
+    top: 58px;
+    left: 63px;
+}
+.image-main-div {
+    height: 73px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #3a94e9;
+    margin: auto;
+    border: 3px solid #e6862c;
+    display: inline-block;
+    position: relative;
+    left: -195px;
+    top: -85px;
+}
+.image-main-div .image-div img{
+    max-width: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+.image-div .inner h6{
+    margin-top:40px;
+    font-size: 10px;
+}
+.image-main-div .image-div .inner {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    color: white;
+    background-color: rgba(41, 125, 180, 0.616);
+    border-radius: 50%;
+    visibility: hidden;
+    margin: auto;
+    opacity: 0;
+    transition: .5s;
+}
+.image-div:hover .inner{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+/* form-div */
+
+.form-div .n .py-1 {
+    position: relative;
+    top: -50px;
+    left: -20px;
+    border: 1px solid #000 !important;
+}
+.form-div .e .py-1 {
+    position: relative;
+    top: -30px;
+    left: -20px;
+    display: inline-block;
+    border: 1px solid #000 !important;
+}
+.form-div .s{
+    display: inline-block;
+}
+.form-div .s .py-1 {
+    position: relative;
+    top: -5px;
+    left: -20px;
+    color: white;
+    background-color: #9f65b9;
+    display: inline-block;
+    font-weight: 900;
+    border: 1px solid #000 !important;
+}
+.s:hover .py-1 {
+    background-color: rgba(255, 255, 255, 0.945);
+    color:#9f65b9 ;
+    display: inline-block;
+    transition: .5s;
+}
+
+/* fotter section */
+.fotter-section {
+    padding: 10px 0;
+    background-color:#31485e ;
+    color: white;
+    text-align: center;
+}

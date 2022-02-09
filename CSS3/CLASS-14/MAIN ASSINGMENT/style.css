@@ -1,0 +1,300 @@
+.fullwebsite{
+    width: 1024px;
+    margin: 0px auto;
+}
+
+/* Part Of menu */
+ .menu ul{
+     text-align: center;
+     margin-top:7px;
+ }
+ .menu ul li{
+     display: inline-block;
+     padding: 8px 10px;
+     background:#48dbfb;
+     transition: 0.7s;
+     cursor: pointer;
+ }
+ .menu ul li a{
+     color: rgb(0, 0, 0);
+     display: inline-block;
+     text-decoration: none;
+     font-weight: 600;
+     position: relative;
+     transition: .7s;
+     
+ }
+.menu ul li a::before{
+    content:'' ;
+    position: absolute;
+    height:2px;
+    width:0;
+    bottom:0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    transition: .7s;
+
+
+}
+.menu ul li:hover a::before{
+    width: 100%;
+}
+.menu ul li:hover{
+     background: none;
+}
+.menu ul li:hover a{
+    color:#48dbfb;
+}
+/* Part Of Banner */
+
+.banner{
+    background-color:#48dbfb;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0px;
+    margin-top: -10px;
+}
+.banner h1{
+    font-weight: 700;
+}
+.banner .google a{
+    background-color:#fff;
+    
+    padding: 10px 10px;
+    color: #dddddf;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+   
+}
+.banner .google a::before{
+    content: "";
+    position: absolute;
+    width:0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index:-1;
+    border-radius: 5px;
+    transition: .5s;
+}
+.banner .google a:hover::before{
+    width: 100%;
+}
+/*  Part Of Content */
+.content{
+    background-color:#f7f9f9;
+    padding: 130px 0px;
+}
+.content .text{
+    text-align: center;
+    margin-top: -50px;
+}
+.text h4{
+    text-transform: uppercase;
+    font-weight:bold;
+}
+/* PartOf Gallery */
+.gallery{
+    margin-top: 50px;
+    margin-left:-8px;
+}
+.gallery img{
+    max-width:100%;
+    left: 10px;
+}
+.gallery .img-1{
+    width:215px;
+    margin-top: 20px;
+    margin-left:60px; 
+    display: inline-block;  
+    overflow: hidden;
+}
+.gallery .img-1 img{
+    transition:.5s;
+}
+.gallery .img-1 img:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.gallery .img-2{
+    width:215px;
+    margin-top: 20px;
+    margin-left:15px;
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery .img-2 img{
+    transition:.5s; 
+}
+.gallery .img-2 img:hover{
+    transform: rotate(20deg) scale(1.2);
+    cursor: pointer;
+}
+.gallery .img-3{
+    width:215px;
+    margin-top: 20px;
+    margin-left:15px;
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery .img-3 img{
+    transition:.5s;
+}
+.gallery .img-3 img:hover{
+    transform: rotate(-20deg) scale(1.2);
+    cursor: pointer;
+}
+
+.gallery .img-4{
+    width:215px;
+    margin-top: 20px;
+    margin-left:15px;
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery .img-4 img{
+    transition:.5s;
+}
+.gallery .img-4 img:hover{
+    transform: rotate(-20deg) scale(1.2);
+    cursor: pointer;
+}
+.gallery .img-5{
+    width:215px;
+    margin-top: 20px;
+    margin-left:60px;
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery .img-5 img{
+    transition:.5s;
+}
+.gallery .img-5 img:hover{
+    transform: rotate(20deg) scale(1.2);
+    cursor: pointer;
+}
+.gallery .img-6{
+    width:215px;
+    margin-top: 20px;
+    margin-left:15px;
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery .img-6 img{
+    transition:.5s; 
+}
+.gallery .img-6 img:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.gallery .img-7{
+    width:215px;
+    margin-top: 20px;
+    margin-left:15px;
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery .img-7 img{
+    transition:.5s; 
+}
+.gallery .img-7 img:hover{
+    transform: rotate(20deg) scale(1.2);
+    cursor: pointer;
+}
+.gallery .img-8{
+    width:215px;
+    margin-top: 20px;
+    margin-left:15px;
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery .img-8 img{
+    transition:.5s; 
+}
+.gallery .img-8 img:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+/* Part of card */
+.cards{
+    text-align: center;
+}
+.cards .card-1{
+    display: inline-block;
+    transform:translate(-224px,-4px)rotate(-50deg);
+}
+.cards .card-1 a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+    transition: .5s;
+
+}
+.cards .card-1 a:hover{
+    transform: rotate(50deg) scale(1.2);
+    background-color: #48dbfb;
+}
+.cards .card-2{
+    display: inline-block;   
+}
+.cards .card-2 a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+    transition: .5s;
+    
+}
+.cards .card-2 a:hover{
+    transform: scale(1.2);
+    background-color:#48dbfb;
+}
+.cards .card-3{
+    display: inline-block;
+    transform:translate(230px,-4px) rotate(50deg);
+}
+.cards .card-3 a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+    transition:.5s;
+}
+.cards .card-3 a:hover{
+    transform: rotate(-50deg) scale(1.2);
+    background-color:#48dbfb;
+}
+
+
+/*Part Of Fotter  */
+.fotter{
+      background-color:#f7f9ff;
+      text-align: center;
+      padding: 30px;
+}
+.fotter .paragraph h4{
+      font-weight: 600;
+
+}
+.fotter .paragraph p{
+      margin-top: 25px;
+
+}
+.fotter-bottom{
+      background-color:#2e2f31;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0px;
+      margin-top: -20px;
+}
+  

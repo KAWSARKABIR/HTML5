@@ -1,0 +1,18 @@
+ .fullwebsite{
+     width: 1024px;
+     margin: auto;
+ }
+ .header{
+     background-color: darkturquoise;
+ }
+ .header .logo{}
+ .header .logo menu{}
+ .header .logo menu ul{}
+ .header .logo menu ul li{
+
+ }
+ .header .logo menu ul li a{
+     color: #fff;
+     text-decoration: none;
+     
+ }

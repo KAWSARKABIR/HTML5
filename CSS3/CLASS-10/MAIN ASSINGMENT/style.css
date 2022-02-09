@@ -1,0 +1,151 @@
+.fullwebsite{
+    text-align: center;
+}
+.background{
+    background-color:#2e219a;
+}
+.logo img{
+    width: 50px;
+}
+/* Part Of Menu */
+.menu{
+    background-color:#ff0000;
+    
+    
+}
+.menu ul{
+    margin-bottom: 0px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 25px 0px;
+
+}
+.menu ul li:hover a{
+    background-color: #dc1212;
+    transition:.5s;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+     padding: 15px 15px;
+    border-left: 1px solid #ddd;
+}
+.menu ul li:first-child a{
+    border: none;
+}
+
+/* Part Of Banner */
+.banner{
+    background:url("https://i.ibb.co/FqB7Nnn/template-1.jpg") no-repeat center;
+    padding: 130px;
+    background-size:cover;
+    
+}
+.content button{
+    background-color:#008000;
+    color: #fff;
+    border: none;
+}
+.content button:hover{
+    background-color: rgb(14, 73, 14);
+    transition: .5s;
+}
+/* Part Of welcome to our theme */
+.img{
+    background: url("https://i.ibb.co/dGJtr6M/template-2.jpg") no-repeat center;
+    background-size:cover;
+    padding: 100px 0px;
+}
+.img h1{
+    background-color: green;
+    margin-top: 40px;
+    margin: 30px 0px;
+}
+.img p{
+    color: #000;
+    background-color: yellow;
+    width: 950px;
+    margin: 0px auto;
+   
+}
+.img button{
+    color: #fff;
+    background-color: #000;
+    margin-top: 20px;
+    border:none;
+   
+}
+.img button:hover{
+    background-color: rgb(16, 9, 117);
+    transition: .5s;
+}
+
+/* Part OF Girl  */
+.main{
+     
+    background-color: #008000;
+    padding: 50px;
+}
+.girl img{
+    text-align: left;
+    width: 100px;
+    margin-left: -700px;
+    margin-top: 50px;
+}
+.text{
+   width: 415px;
+
+   margin-top: -108px;
+   margin-left: 350px;
+   text-align: left;
+}
+.text p{
+    text-align: left;
+ 
+}
+.main-2{
+    margin-top: 80px;
+}
+.girl-2 img{
+    text-align: left;
+    width: 100px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+.text-2{
+   width: 415px;
+   margin-top: -108px;
+   margin-left: 120px;
+   text-align: left;
+}
+.text-2 p{
+    text-align: left;
+ 
+}
+ 
+/* Part Of Fotter Menu */
+.fotter-menu{
+    background-color:#2e219a;
+    
+}
+.fotter-menu ul{
+    padding: 20px 0px;
+}
+.fotter-menu ul li{
+    display: inline-block;
+}
+.fotter-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 5px;
+}
+.fotter-menu ul li:hover a{
+
+    background-color: #120866;
+    transition: .5s;
+
+}

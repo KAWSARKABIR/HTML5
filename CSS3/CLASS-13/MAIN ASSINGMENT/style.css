@@ -1,0 +1,408 @@
+.fixt-width{
+    width: 750px;
+    margin: 0px auto;
+    
+}
+/* banner Section */
+.banner{
+    background-image: url("https://i.ibb.co/CvhRJCx/template-1.jpg");
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    background-size: 100% 460px;
+    padding: 25px 0px;
+    height:365px;
+    
+}
+.header .logo{
+    width:30%;
+    display: inline-block;
+
+}
+.header .logo a img{
+    width: 100px;
+}
+/* Header menu */
+.header{
+    
+}
+.header .menu{
+    text-align: right;
+    width: 69%;
+    display: inline-block;
+
+}
+.header .menu ul{
+    
+    margin-top: -150px;
+}
+.header .menu ul li{
+    display: inline-block;
+}
+.header .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+    transition: .7s;
+}
+.header .menu ul li a:hover{
+    color:rgb(239, 102, 77) ;
+}
+/* part of before after */
+.text h1{
+    text-align:center;
+    text-transform: uppercase;
+    position: relative;
+    font-family: time;
+    font-style: italic;
+    
+}
+.text h1::before{
+    content: '\f10d';
+    font-family:"Font Awesome 5 Free";
+    font-weight: 600;
+    color: rgb(239, 102, 77);
+    position:absolute;
+    
+    left: 13%;
+    top: -14px;
+}
+.text h1::after{
+    content: '\f10e';
+    font-family:"Font Awesome 5 Free";
+    font-weight: 600;
+    color: rgb(239, 102, 77);
+    position: absolute;
+    right: 13%;
+    top: -14px;
+}
+/* part of div-2 */
+.div-2{
+    display: flex;
+    padding: 20px;
+}
+.div-2 .imgs img{
+    width: 130px;
+    border: 2px solid red;
+    margin-top: 90px;
+}
+.div-2 .content{
+    width: 465px;
+    margin-left: 100px;
+}
+.div-2 .content h2{
+    margin-left: 90px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+/* part of div-3 list-1 */
+.div-3{
+    background-color: rgb(46, 62, 78);
+    color: #fff;
+     
+     
+    
+}
+.div-3 h1{
+    text-align: center;
+    color:#f1674d;
+    text-transform: uppercase;
+}
+.list-1{
+    text-align: center;
+}
+.list-1 span{
+     
+    background-color: #ef664d;
+    padding: 8px 13px;
+    border-radius: 4px 16px;
+     
+}
+.list-1 span i{
+    margin-top: 20px
+}
+.list-1 h5{
+    margin-top: 25px;
+    text-transform: uppercase
+}
+
+/* Before double click */
+
+.list-1 ul{
+    position: relative;
+}
+.list-1 ul li{
+    list-style: none;
+}
+.list-1 ul li::before{
+    content: "\f560";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(239, 102, 77);
+    position: absolute;
+    left: 10px;
+}
+.list-1 a {
+	text-decoration: none;
+	background-color: #ef664d;
+	padding: 8px 10px;
+	color: #fff;
+	box-shadow: 1px 1px 10px #000;
+	border-radius: 5px;
+    position: relative;
+    z-index: 1;
+	top: 15px;
+	left: 10px;
+}
+
+/* Parf Of before After Hover efect  */
+
+.list-1 a::before{
+    content:"";
+    width:0px;
+    height:100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:#fff100;
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+.list-1 a:hover::before{
+  
+    width:100%;
+    
+}
+
+/* part of list-2 */
+.div-3{
+    background-color: rgb(46, 62, 78);
+    color: #fff;    
+}
+.div-3 h1{
+    text-align: center;
+    color:#f1674d;
+    text-transform: uppercase;
+    margin-top: -50px;
+}
+.list-2{
+    text-align: center;
+    margin-left: 35px;
+}
+.list-2 span{
+     
+    background-color: #ef664d;
+    padding: 8px 13px;
+    border-radius: 4px 16px;
+     
+}
+.list-2 span i{
+    margin-top: 20px
+}
+.list-2 h5{
+    margin-top: 25px;
+    text-transform: uppercase
+}
+
+/* part Of before after double click list2 */
+
+.list-2 ul{
+    position: relative;
+}
+.list-2 ul li{
+    list-style: none;
+}
+.list-2 ul li::before{
+    content: "\f560";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(239, 102, 77);
+    position: absolute;
+     left: 10px;
+}
+.list-2 a {
+	 
+	text-decoration: none;
+	background-color: #ef664d;
+	padding: 8px 10px;
+	color: #fff;
+	box-shadow: 1px 1px 10px #000;
+	border-radius: 5px;
+    position: relative;
+    z-index: 1;
+	top: 15px;
+	left: 11px;
+}
+/* Parf Of before After Hover efect  */
+
+.list-2 a::before{
+    content:"";
+    width:100%;
+    height:0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#fff100;
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+.list-2 a:hover::before{
+  height: 100%;
+    
+}
+
+/* part of list-3 */
+.div-3{
+    background-color: rgb(46, 62, 78);
+    color: #fff;
+    text-align: center;
+    padding: 80px;    
+}
+.div-3 h1{
+    text-align: center;
+    color:#f1674d;
+    text-transform: uppercase;
+}
+.list-3{
+    text-align: center;
+    margin-left: 35px;
+}
+.list-3 span{
+     
+    background-color: #ef664d;
+    padding: 8px 13px;
+    border-radius: 4px 16px;
+     
+}
+.list-3 span i{
+    margin-top: 20px
+}
+.list-3 h5{
+    margin-top: 25px;
+    text-transform: uppercase
+}
+
+/* part Of before after double click list3 */
+.list-3 ul{
+    position: relative;
+}
+.list-3 ul li{
+    list-style: none;
+}
+.list-3 ul li::before{
+    content: "\f560";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(239, 102, 77);
+    position: absolute;
+     left: 10px;
+}
+
+.list-3 a {
+	 
+	text-decoration: none;
+	background-color: #ef664d;
+	padding: 8px 10px;
+	color: #fff;
+	box-shadow: 1px 1px 10px #000;
+	border-radius: 5px;
+    position: relative;
+    z-index: 1;
+	top: 15px;
+	left: 15px;
+}
+/* Part Of before After Hover efect  */
+
+.list-3 a::before{
+    content:"";
+    width:0;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#fff100;
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+.list-3 a:hover::before{
+   width: 100%;   
+}
+
+.sobGula-list{
+      display: flex;
+      margin-top: 40px;
+     
+      position: relative;
+}
+.div-4{
+    text-align: center;
+}
+.div-4 h1{ 
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+.form input{
+    border: none;
+    border-bottom: 1px solid red;
+    width: 450px;
+}
+.div-4 a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ef664d;
+    padding: 7px 110px;
+    box-shadow: 1px 1px 8px #000;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+ 
+
+}
+.div-4 a::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width:0;
+    top: 0;
+    left: 0;
+    background-color:#782209;
+    border-radius: 5px 0px 0px 5px;
+    z-index: -1;
+    transition:.5s;
+}
+.div-4 a:hover::before{
+    width:50%;
+}
+.div-4 a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width:0;
+    right: 0;
+    top: 0;
+    background-color:#532517;
+    border-radius: 0px 5px 5px 0px;
+    z-index: -1;
+    transition:.5s;
+}
+.div-4 a:hover::after{
+    width:50%;
+}
+/* Part Of fotter */
+
+.fotter{
+    background-color:#2e3e4e;
+    color: #fff;
+    padding: 20px 0px;
+    margin-top: 35px;
+}
+.fotter p{
+    text-align: center;
+}
+.fotter span{
+    color:#ef664d;
+}
