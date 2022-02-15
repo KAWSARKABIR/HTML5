@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.side{
+    max-width: 1024px;
+    margin: auto;
+}
+.menu{
+    background-color: green;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    flex-grow: 1;
+}
+ul li a{
+    padding: 10px 30px;
+    color: #fff;
+    display: block;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    font-size: 20px;
+}
+.second{
+    display: flex;
+}
+
+.item{
+    border: 1px solid red;
+    padding: 15px;
+}
+.third{
+    display: flex;
+    margin-top: 20px;
+}
+.fourth{
+    display: flex;
+    margin-top: 36px;
+}
+.foitem{
+    border: 1px solid orange;
+    padding: 20px;
+    flex-basis: 30%;
+}
+.bigger{
+    flex-basis: 70%;
+}
+.five{
+    display: flex;
+    margin-top: 20px;
+}
+.fitem{
+    border: 1px solid blue;
+    flex: 1 0 0%;
+    padding: 15px;
+}
+.fbig{
+    flex-grow: 2;
+}
+.six{
+    height: 400px;
+    width: 400px;
+    border: 2px solid green;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.six_inner{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.six_inner h2{
+
+}

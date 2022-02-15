@@ -1,0 +1,139 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.custom-css-nav .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+.navbar-brand span {
+    display: inline-block;
+    background: #6278df;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 27px;
+    position: relative;
+    top: 2px;
+}
+.slider-section{
+    background: url(./IMG/asset\ 8.jpeg) no-repeat center;
+    background-size: cover;
+    padding: 120px 0px;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.470);
+    z-index: -1;
+}
+.slider-section .slider-caption p {
+    font-size: 22px;
+   
+}
+.slider-section .slider-caption h1 {
+    font-size: 45px;
+}
+.slider-caption .btn {
+    background: #5ba533;
+    padding: 10px 0px;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+.slider-caption .btn:hover{
+    background:#fff;
+    color:#6278df;
+    border: 2px solid #6278df;
+    border-radius: 5px;
+    box-shadow: 3px 3px 27px -3px #6278df;
+
+}
+.slider-caption .form-control{
+    padding: 10px 20px;
+    border: 1px solid #5ba533;
+}
+.slider-caption .form-control:focus{
+    box-shadow: 3px 3px 27px -3px #6278df;
+    border: 1px solid #6278df;
+}
+/* part 0f counter- number */
+.counter-number{}
+.counter-number-item{}
+.counter-number-item h1{
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.counter-number-item p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+/* part 0f improve health */
+.improve-health{
+    background: #f7f9ff;
+    padding:60px 0px;
+}
+.improve-health .improve-health-item h1 {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.improve-health .improve-health-item p{
+    font-size: 22px;
+}
+ /*  Feature Section css */
+.feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-test-sec {
+    width: 60%;
+    padding: 25px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+/*  Portolio Hover Css  */
+.portfolio-item{}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
